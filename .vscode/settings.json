@@ -1,5 +1,11 @@
 {
     "path-intellisense.mappings": {
         "~": "${workspaceFolder}/src"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
     }
 }

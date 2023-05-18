@@ -1,10 +1,15 @@
 <template>
     <header>
-        <img
-            src="~/assets/images/logo.svg"
-            alt="Logo"
-        />
+        <div class="container">
+            <img
+                class="w-52"
+                src="~/assets/images/logo.svg"
+                alt="Logo"
+            />
+        </div>
     </header>
 
-    <slot />
+    <div class="container">
+        <slot />
+    </div>
 </template>
