@@ -133,7 +133,7 @@
     });
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .icon {
         transform: scale(0);
         opacity: 0;
