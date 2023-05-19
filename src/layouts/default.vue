@@ -1,15 +1,9 @@
 <template>
-    <header>
-        <div class="container">
-            <img
-                class="w-52"
-                src="~/assets/images/logo.svg"
-                alt="Logo"
-            />
-        </div>
-    </header>
+    <TheHeader />
 
-    <div class="container">
-        <slot />
-    </div>
+    <main class="mt-6">
+        <div class="container">
+            <slot />
+        </div>
+    </main>
 </template>
