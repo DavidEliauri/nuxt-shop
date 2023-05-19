@@ -8,7 +8,7 @@
     }
 
     body {
-        @apply min-w-[320px] font-Ubuntu;
+        @apply antialiased min-w-[320px] font-Ubuntu;
     }
 }
 

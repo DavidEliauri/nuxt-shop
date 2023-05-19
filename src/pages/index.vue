@@ -1,5 +1,11 @@
 <template>
-    <div class="mb-32 h-32 bg-red-400"></div>
+    <div class="mb-32">
+        <ul>
+            <li>
+                <NuxtLink to="/success">Страница успешной покупки</NuxtLink>
+            </li>
+        </ul>
+    </div>
 
     <div class="relative lg:grid lg:grid-cols-10 lg:gap-8">
         <div class="lg:col-span-2">
