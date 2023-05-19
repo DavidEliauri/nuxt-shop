@@ -22,4 +22,14 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+    // Testing FakeStoreApi
+
+    import FakeStoreApi from '~/packages/fake-store/lib/src/fake-store-api';
+
+    onMounted(async () => {
+        const response = await new FakeStoreApi().getProducts();
+
+        console.log(response);
+    });
+</script>
